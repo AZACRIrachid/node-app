@@ -1,0 +1,9 @@
+
+version: '3'
+services:
+  node-app:
+    restart: always
+    image:   node-app
+    build: .
+    ports:
+      - "4001:3000"
