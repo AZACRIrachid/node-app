@@ -6,7 +6,7 @@ node {
     stage('Environment') {
       sh 'git --version'
       echo "Branch: ${env.BRANCH_NAME}"
-      sh 'docker -v'
+      sh ' echo "Spio12345" | sudo -S docker -v'
       sh 'printenv'
     }
   }
