@@ -1,4 +1,4 @@
 #!/bin/sh
-sudo docker-compose stop app-node
-sudo docker-compose build app-node
-sudo docker-compose up -d app-node
+echo Spio12345 | sudo -S commandsudo docker-compose stop app-node
+echo Spio12345 | sudo -S commandsudo docker-compose build app-node
+echo Spio12345 | sudo -S commandsudo docker-compose up -d app-node
